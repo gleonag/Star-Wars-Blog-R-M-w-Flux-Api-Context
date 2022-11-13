@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
-import { unicoPersonaje } from '../funciones/funciones.js'
-import CardPersonaje from '../Views/CardPersonaje.jsx'
 
 const Personaje = () => {
   const[personaje, setPersonaje] = useState(null)
