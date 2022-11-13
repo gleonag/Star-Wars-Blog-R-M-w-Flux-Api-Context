@@ -21,8 +21,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 					
 				})
 					
-				getCharacter("id").then(data=>{
-					setStore({...store, characters: store.character.concat(data)})})
+				getCharacter(1).then(data=>{
+					setStore({...store, characters: store.characters.concat(data)})})
 
 			},
 			changeColor: (index, color) => {

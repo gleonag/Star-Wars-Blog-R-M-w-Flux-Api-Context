@@ -28,7 +28,7 @@ const Cards = (props) => {
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>{props.gender}, {props.status}</Card.Text>
-          <Link to={`/personaje/${props.id}`}>
+          <Link to={`/single/${props.id}`}>
             <Button variant="primary">Learn More!</Button>
           </Link>
           <Button 
